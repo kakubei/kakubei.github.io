@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Noir
+tagline:          A novel in installments
+description:      Read the novel one chapter at a time, for free
+url:              http://kakubei.github.io
+
+author:
+  name:           Alex Dearden
+  url:            https://twitter.com/kakubei
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/poole
