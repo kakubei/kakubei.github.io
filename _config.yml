@@ -17,9 +17,10 @@ author:
 
 paginate:         1
 
-pages_list:
-  About: '/about'
-  Archive: '/archive'
+# Use this if you want to build a top menu of certain pages
+#pages_list:
+#  About: '/about'
+#  Archive: '/archive'
 
 # Custom vars
 version:          0.1
