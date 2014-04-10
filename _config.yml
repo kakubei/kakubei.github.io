@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Noir
-tagline:          A novel in installments
-description:      Read the novel one chapter at a time, for free
+title:            Kakuweb Blog
+tagline:          Rants and raves. Some interesting stuff, most of it not.
+description:      Hodgepodge bunch of stuff, mostly related to programming but really anything I feel like ranting about.
 url:              http://kakubei.github.io
 
 author:

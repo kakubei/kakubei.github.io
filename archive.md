@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chapters
+title: Archive
 ---
 
 {% for post in site.posts %}
