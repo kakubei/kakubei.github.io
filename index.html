@@ -4,21 +4,36 @@ title: Home
 ---
 
 <div class="posts">
+
+    {% for post in site.posts limit: 7 %}
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.content | truncatewords:80 | strip_html }} <a href="{{ post.url }}">read</a> </p>
+    {% endfor %}
+
+    <hr/>
+
+    <!--
+    <h1>Latest Post</h1>
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+      <div class="post">
+        <h2 class="post-title">
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
 
-    {{ post.content }}
-  </div>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+
+        {{ post.content }}
+      </div>
+
   {% endfor %}
+-->
 </div>
 
+<!-- This should go in each individual posts page not here -->
+ <!--
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
@@ -35,4 +50,4 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
+-->
