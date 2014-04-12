@@ -77,6 +77,9 @@ If you already have a website and would like to publish your blog there for what
 
 We'll use `ssh` to publish our blog to our remote server on the internet. In order to do this, we need to create secure keys so that the computers can trust each other. `ssh` can be daunting but just follow along and it doesn't have to be.
 
+\* Another Disclaimer: the first s in `ssh` stands for secure, so security is very important when you're dealing with `ssh` otherwise it sort of defeats the purpose. Below, I'm recommending you don't use a passphrase just because it's easier to setup and use, but please do [read more about ssh](http://jimmyg.org/blog/2008/beginners-guide-to-ssh-keys-with-ssh2.html) and be conscious of security issues. And no, you can't sue me if your computer gets hacked.
+
+
 ## Create SSH keys
 We're going to create those keys on your computer. Let's go back to our friend the Terminal.
 
