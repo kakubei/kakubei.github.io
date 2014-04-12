@@ -2,8 +2,10 @@
 layout: post
 title: "Serving Retina Images to Devices that Need them"
 tags:
- -
 ---
+
+
+### *Update:* `Chrome 34` (released around April 9 2014) is supposed to have support for the `srcset` attribute. Read on to find out what that means.
 
 Retina Macs are a pain in the arse for web developers, now we have to deal with 2 sets of images for everything or run the risk of suffering the unending wrath of Retina Mac users who will invariably let you know that image X looks fuzzy on their screen. When did fuzzy images become a capital crime? And it's not like I'm talking horrible, pixelated images, no, just a bit fuzzy which all of a sudden is completely unacceptable.
 
@@ -20,6 +22,9 @@ Here's an example, say your image is 1024 x 960 pixels, this is how you need to 
 
 {% highlight html %}
 <img src="retina-image@2x.png" width="512" height="480">
+{% endhighlight %}
+
+{% highlight css %}
 // with CSS
 <img src="retina-image@2x.png" style="width: 512px; height: 480px;">
 {% endhighlight %}
@@ -28,6 +33,9 @@ Of course you want to avoid HTML attributes and inline CSS so you can create a c
 
 {% highlight html %}
 <img src="retina-image@2x.png" class="retina-pain-in-the-arse">
+{% endhighlight %}
+
+{% highlight css %}
 // CSS
 .retina-pain-in-the-arse {
     width: 50%;
@@ -49,7 +57,7 @@ Use Safari's fancy new-fangled `srcset` tag to serve retina images. It sounds gr
 
 Note the `2x` at the end of the name, no, that's not a typo, that's what the spec says to use. Safari is supposed to look at this and determine which image it will serve depending on the device. Sounds awesome. The best part: it will **not** load both images, just the one it needs to render, everybody wins.
 
-**The bad news:** this doesn't seem to work, that is, there is no support on the main browsers for it at the moment, which is a bit strange considering that this change came out for webkit in August 2013. Safari 7 in Mavericks was supposed to have it but it doesn't, nor does Safari for iOS 7.1 either. I read somewhere that the latest version of Chrome (or Chrmomium, the poster wasn't too sure) supports this but in my tests with Chrome 33.0.1750.152 downloaded yesterday it doesn't work.
+**The bad news:** this doesn't seem to work, that is, there is no support on the main browsers for it at the moment, which is a bit strange considering that this change came out for webkit in August 2013. Safari 7 in Mavericks was supposed to have it but it doesn't, nor does Safari for iOS 7.1 either. I read somewhere that the latest version of Chrome (or Chrmomium, the poster wasn't too sure) supports this but in my tests with `Chrome 33.0.1750.152` downloaded yesterday it doesn't work.
 
 So, useless for the time being, keep it around for the future if you already changed your web pages.
 
@@ -64,50 +72,50 @@ This is a javascript I stole from my brother who in turn stole it from some dude
 Presented here in Coffeescript because I hate Javascript (is there an uglier modern language that javascript out there?):
 
 {% highlight javascript %}
-    $ ->
-      if window.devicePixelRatio > 1
-        images = document.getElementsByTagName("img")
-        arrayLength = images.length
-        i = 0
+$ ->
+  if window.devicePixelRatio > 1
+    images = document.getElementsByTagName("img")
+    arrayLength = images.length
+    i = 0
 
-        while i < arrayLength
-          imgTag = images[i]
-          attr = imgTag.getAttribute("srcset")
-          if attr
-            firstToSpace = attr.split(" ")[0]
-            console.log("attr is: " + attr)
-            imgTag.src = firstToSpace
-            console.log("And firstToSpace is: " + firstToSpace)
-          i++
-    return
+    while i < arrayLength
+      imgTag = images[i]
+      attr = imgTag.getAttribute("srcset")
+      if attr
+        firstToSpace = attr.split(" ")[0]
+        console.log("attr is: " + attr)
+        imgTag.src = firstToSpace
+        console.log("And firstToSpace is: " + firstToSpace)
+      i++
+return
 {% endhighlight %}
 
 Alright, for you Javascript perverts:
 
 {% highlight javascript %}
-    $(function() {
-      var arrayLength, attr, firstToSpace, i, images, imgTag, _results;
-      if (window.devicePixelRatio > 1) {
-        images = document.getElementsByTagName("img");
-        arrayLength = images.length;
-        i = 0;
-        _results = [];
-        while (i < arrayLength) {
-          imgTag = images[i];
-          attr = imgTag.getAttribute("srcset");
-          if (attr) {
-            firstToSpace = attr.split(" ")[0];
-            console.log("attr is: " + attr);
-            imgTag.src = firstToSpace;
-            console.log("And firstToSpace is: " + firstToSpace);
-          }
-          _results.push(i++);
-        }
-        return _results;
+$(function() {
+  var arrayLength, attr, firstToSpace, i, images, imgTag, _results;
+  if (window.devicePixelRatio > 1) {
+    images = document.getElementsByTagName("img");
+    arrayLength = images.length;
+    i = 0;
+    _results = [];
+    while (i < arrayLength) {
+      imgTag = images[i];
+      attr = imgTag.getAttribute("srcset");
+      if (attr) {
+        firstToSpace = attr.split(" ")[0];
+        console.log("attr is: " + attr);
+        imgTag.src = firstToSpace;
+        console.log("And firstToSpace is: " + firstToSpace);
       }
-    });
+      _results.push(i++);
+    }
+    return _results;
+  }
+});
 
-    return;
+return;
 {% endhighlight %}
 
 I've left the console logs in there so you can see if the damn thing is working or not.
