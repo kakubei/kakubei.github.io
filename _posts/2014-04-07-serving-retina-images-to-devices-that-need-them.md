@@ -63,7 +63,7 @@ This is a javascript I stole from my brother who in turn stole it from some dude
 
 Presented here in Coffeescript because I hate Javascript (is there an uglier modern language that javascript out there?):
 
-{% highlight html %}
+{% highlight javascript %}
     $ ->
       if window.devicePixelRatio > 1
         images = document.getElementsByTagName("img")
@@ -84,6 +84,7 @@ Presented here in Coffeescript because I hate Javascript (is there an uglier mod
 
 Alright, for you Javascript perverts:
 
+{% highlight javascript %}
     $(function() {
       var arrayLength, attr, firstToSpace, i, images, imgTag, _results;
       if (window.devicePixelRatio > 1) {
@@ -107,6 +108,7 @@ Alright, for you Javascript perverts:
     });
 
     return;
+{% endhighlight %}
 
 I've left the console logs in there so you can see if the damn thing is working or not.
 

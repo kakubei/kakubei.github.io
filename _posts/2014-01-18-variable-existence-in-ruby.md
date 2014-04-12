@@ -39,11 +39,11 @@ Check for method in an object
 
 This should work for any method on any object, but for example, does an instance of a Model object (representing a table in your database) have a particular field?
 
-```
-    instance_object.respond_to?(:field_name)
-    user.respond_to?(:locked)
-    # returns true or false
-```
+{% highlight ruby %}
+instance_object.respond_to?(:field_name)
+user.respond_to?(:locked)
+# returns true or false
+{% endhighlight %}
 
 This is great for helpers that might respond to different models and some might not have a particular method or field on them. This way, you avoid the dreaded undefined method error.
 
