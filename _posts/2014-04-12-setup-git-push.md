@@ -211,3 +211,7 @@ I hope this actually helps someone. If it does, drop me a line in the comments s
 
 ## Coming Soon
 In a next installment I shall reveal the secrets to all the changes I made to this blog so you can be as cool as me ;)
+
+---
+
+Thanks to [Joshua Lande](http://joshualande.com/jekyll-github-pages-poole/) for pointing me to this variation of the [Jekyll](http://jekyllrb.com) blog software.
