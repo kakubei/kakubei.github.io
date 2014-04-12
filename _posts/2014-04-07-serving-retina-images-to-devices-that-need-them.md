@@ -18,18 +18,22 @@ Just serve huge images to everybody. This is the easiest thing to do, but you st
 
 Here's an example, say your image is 1024 x 960 pixels, this is how you need to present it.
 
-    <img src="retina-image@2x.png" width="512" height="480">
-    // with CSS
-    <img src="retina-image@2x.png" style="width: 512px; height: 480px;">
+{% highlight html %}
+<img src="retina-image@2x.png" width="512" height="480">
+// with CSS
+<img src="retina-image@2x.png" style="width: 512px; height: 480px;">
+{% endhighlight %}
 
 Of course you want to avoid HTML attributes and inline CSS so you can create a class for it.
 
-    <img src="retina-image@2x.png" class="retina-pain-in-the-arse">
-    // CSS
-    .retina-pain-in-the-arse {
-        width: 50%;
-        // You'll need some extra, tricky CSS to get the image to display at the size you want.
-    }
+{% highlight html %}
+<img src="retina-image@2x.png" class="retina-pain-in-the-arse">
+// CSS
+.retina-pain-in-the-arse {
+    width: 50%;
+    // You'll need some extra, tricky CSS to get the image to display at the size you want.
+}
+{% endhighlight %}
 
 The downside to this method is, of course, you're serving huge images, even to the majority who don't have a fancy new retina display.
 
@@ -39,7 +43,9 @@ And the `width: 50%` in the CSS won't help you get the image at the size you wan
 ## Option 2
 Use Safari's fancy new-fangled `srcset` tag to serve retina images. It sounds great. Supposedly webkit has this new tag where you specify the name of the retina image and the browser will only load the needed one. It's supposed to be like this:
 
-    <img src="normal-image.png" srcset="big-ass-retina-image.png 2x">
+{% highlight html %}
+<img src="normal-image.png" srcset="big-ass-retina-image.png 2x">
+{% endhighlight %}
 
 Note the `2x` at the end of the name, no, that's not a typo, that's what the spec says to use. Safari is supposed to look at this and determine which image it will serve depending on the device. Sounds awesome. The best part: it will **not** load both images, just the one it needs to render, everybody wins.
 
@@ -57,6 +63,7 @@ This is a javascript I stole from my brother who in turn stole it from some dude
 
 Presented here in Coffeescript because I hate Javascript (is there an uglier modern language that javascript out there?):
 
+{% highlight html %}
     $ ->
       if window.devicePixelRatio > 1
         images = document.getElementsByTagName("img")
@@ -73,6 +80,7 @@ Presented here in Coffeescript because I hate Javascript (is there an uglier mod
             console.log("And firstToSpace is: " + firstToSpace)
           i++
     return
+{% endhighlight %}
 
 Alright, for you Javascript perverts:
 
