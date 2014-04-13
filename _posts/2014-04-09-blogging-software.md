@@ -6,7 +6,7 @@ tags:
 
 So you want to have a blog (who doesn't, right?) and you're wondering which software you should use. Should you use an existing web site or roll your own? Perhaps a CMS (Content Management System) so you can go hog-crazy and add all sorts of stuff to your blog, videos, photos, plugins, cats, etc.
 
-Well, I'm here to help you. I've had my blog for a while in [blogger](http://blogger.com) and it's fine, but recently I wanted to create another blog to post the chapters of a novel I'm working on to put it out there and maybe get some feedback, you can check it out at [novel.kakuweb.com](novel.kakuweb.com). So I started hunting around for the best way to do so.
+Well, I'm here to help you. I've had my blog for a while in [blogger](http://blogger.com) and it's fine, but recently I wanted to create another blog to post the chapters of a novel I'm working on to put it out there and maybe get some feedback, you can check it out at [novel.kakuweb.com](http://novel.kakuweb.com). So I started hunting around for the best way to do so.
 
 I looked at all the major blogging software out there and tried most of them, some I won't even mention here, what's the point of going on and on about something I didn't like? I'll just talk about the top 3.
 
