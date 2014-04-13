@@ -8,7 +8,7 @@ Due to the immense popularity of this blog, I've received thousands of requests 
 \* **Disclaimer:** This is an unashamed lie, *thousands* of requests is a bit of an exaggeration, nobody reads this shit, so it was actually more like 0 requests. But hey, Dipak Chopra and the rest of the *The Secret* crew assure me that if you send your positive wishes to the Universe they will all come true (or some crap like that), so this is me putting my positive vibes out there.
 
 
-Let's assume you were so enthralled by my [brilliant piece on blogging software]({{ site.url }}/blogging-software-link) that you can't wait to try [Jekyll](jekyllrb.com) to create your very own blog. But you don't want any plain vanilla, crappy blog, you want the whole enchilada, all-you-can-eat, hog-wild blog. Well, once again, I'm here to help you.
+Let's assume you were so enthralled by my [brilliant piece on blogging software]({{ site.url }}/2014/04/09/blogging-software/) that you can't wait to try [Jekyll](jekyllrb.com) to create your very own blog. But you don't want any plain vanilla, crappy blog, you want the whole enchilada, all-you-can-eat, hog-wild blog. Well, once again, I'm here to help you.
 
 First things first. Let's install Jekyll
 
