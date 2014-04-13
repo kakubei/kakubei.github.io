@@ -151,6 +151,7 @@ The last command will create an empty git repository so that when we push git wo
 Back on your computer we need to tell git where to push the changes, the easiest ting to do is to go to the Terminal and `cd` over to where your blog is and type this:
 
     git remote add origin user-name@mysite.com:remote_blog_directory
+    IdentityFile =
 
 `remote_blog_directory` is the name of the folder you created in Step 1 above. And of course, change `user-name` and `mysite.com` for your user and site name.
 
@@ -158,7 +159,23 @@ Back on your computer we need to tell git where to push the changes, the easiest
 
 If you installed SublimeText you can also type this in the Terminal: `subl path_to_your_blog/.git/config` and it will open that file for editing.
 
-Git now knows where to publish your blog and since we already setup `SSH` before, it won't prompt you for a password.
+Git now knows where to publish your blog
+
+## Tell git not to prompt you for a password
+This should only be necessary if you have multiple users, if not you can probably skip it.
+
+We'll need to edit `~/.ssh/config`, not `.git/config` in the root of your blog, but your personal `.ssh/config` file. You'll find this file in your user's folder, that's what the little squiggly thing `~` (called `tilde` in English for those of you interested) means.
+
+Open that file up with any editor, you can use the `SublimeText` trick above, and type something like this in it:
+
+    Host mysite.com
+      HostName mysite.com
+      IdentityFile /Users/user-name/.ssh/id_rsa
+      IdentitiesOnly yes
+
+The `IdentityFile` value is the private key, not the public one, the one **without** `.pub` at the end.
+
+Since we already setup `SSH` before, it won't prompt you for a password when you push your git changes.
 
 ## Tell git to copy our files to the website folder after we push
 OK there is one last thing to do before we can push our site with git and see our hard-earned rewards, we need to tell git that every time you publish a change to your site, it needs to copy all the files from its internal repository and over to the folder where your website actually exists. This is easily accomplished thusly.
