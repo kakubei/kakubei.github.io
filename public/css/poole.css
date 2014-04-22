@@ -402,6 +402,6 @@ a.pagination-item:hover {
 }
 
 .comments {
-  width: 70% !important;
+  width: 100% !important;
   margin: auto !important;
 }
