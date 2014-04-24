@@ -78,3 +78,15 @@ This just creates the object, we haven't created a file or written to it yet. le
 {% endhighlight %}
 
 This is an easy way to store data in hashes, and who doesn't love hashes?
+
+### Use YAML instead of Marshal to store those hashes
+But wait, there's more! Once you get the hang of this hash-storing trick, switch to using `YAML::Store` instead of `PStore`. The reason is simple: `yaml` files are much more readable than `PStore` files which are not readable at all by humans.
+
+Yaml::Store uses [yaml](http://ruby-doc.org/stdlib-2.0.0/libdoc/yaml/rdoc/YAML.html) to write the data whereas PStore uses [Marshal](http://www.ruby-doc.org/core-2.1.1/Marshal.html).
+
+Learn more about [YAML::Store here](http://ruby-doc.org/stdlib-2.0.0/libdoc/yaml/rdoc/YAML/Store.html), but basically you can keep everything pretty much the same just:
+
+{% highlight ruby %}
+    require 'yaml/store'
+    store = YAML::Store.new(path_to_file) # instead of PStore
+{% endhighlight %}
