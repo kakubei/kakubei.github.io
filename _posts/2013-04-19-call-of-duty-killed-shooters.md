@@ -1,0 +1,44 @@
+---
+layout: post
+title: How Call of Duty and EA Killed the First Person Shooter
+---
+
+
+
+Ok, so I'm an old dinosaur who doesn't like multiplayer games and I know EA doesn't publish Call Of Duty but stick with me.
+
+Call of Duty is one of the most popular and successful gaming franchises in the world, raking in millions of dollars over the years and played by millions of people all over the world. My 13 year old son loves it, is obsessed by it, it's all he plays, exclusively, he will not even consider playing another game. From what I understand, his friends feel the same way. Apparently it has become this generation of young players' most beloved game. So how can I say that it **killed the First Person Shooter**? Let me explain.
+
+### It made EA try to copy their formula which lead to the demise of another well-loved franchise: Medal of Honour.
+
+Maybe this is strictly not CoD's fault but it's responsible nonetheless. Electronic Arts is a huge company, perhaps the biggest gaming company in the world, with some very popular titles under its misguided wing. Medal of Honour was one of them.
+
+This was a series that first appeared in 1999 with a story by Stephen Spielberg and developed by Dreamworks Interactive. It was a great game that defined the WWII First Person Shooter and became the template for most other FPS games that came after, including Call of Duty. It had its ups and downs with some great add-ons and some very bad sequels. It disappeared for a while and then came back with 2010's Medal of Honour which was a wonderful game whose biggest fault, according to some game journalists, was not copying CoD.
+
+Because 2010's Medal of Honour did not sell as well as CoD, the idiots running EA decided that the next MoH game, Warfighter, had to be a CoD clone. As such, they completely mangled what was a very different and very playable formula, geared more towards cooperation with the other members of your squad and actually having to think about how better to take on the next firefight; and made it into a bug-ridden, soulless Michael Bay romp with no focus, no identity of its own and no fun anywhere.
+
+Medal Of Honour Warfighter, sold like crap because it was crap, not because "gamers didn't appreciate it's genius", or some shit like that, as one of the EA head honchos had the balls to come out and say publicly. In fact, it sold so badly that EA killed the franchise straight out. This speaks more about EA's idiocy than anything else, but there you go the result is the same, sadly, we'll never see another MoH game again.
+
+### It made EA break the best horror game of this generation.
+
+EA again, well it's hard to escape from them. EA publishes the magnificent Dead Space franchise. The first Dead Space was a horror masterpiece. I've never been so scared in my life while in front of a monitor. The game was very well paced, building tension by exploring and scavenging for parts and ammunition and then suddenly unleashing on you horrific moments of pant-wetting genuine scares that made you shriek with fright like a schoolgirl. And then there were the puzzles and zero gravity sections of the game which were superb. The interface was excellent too, no menus with different windows but everything was a holographic projection from your space suit. The story was very interesting with a nice twist at the end.
+
+Dead Space 3 comes along and what did EA do with this wonderful franchise? Try to turn it into Call of Duty of course. Gone are the truly scary moments, the tension, the desperate scavenging for ammo, the tough decisions over which weapon to use, replaced by **hordes of enemies coming at you and constant shooting at anything that moves**, the CoD formula. The fact that even a horror game has copied CoD speaks volumes not only of the latter's immense influence in the gaming world, but also of EA's lack of understanding of gaming genres. Not everything has to be a CoD, a horror game is not a high-fructose FPS for overactive thirteen year olds, and not every FPS has to bow down to the CoD formula.
+
+### But, what is wrong with the CoD formula? If so many people love it, it can't be bad right?
+
+Wrong. This is precisely the kind of bone-headed thinking that makes the corporate suits at a company like EA make devastating, misguided decisions which lead to the demise of great franchises. These people are, for the most part, not even gamers themselves, all they see is the bottom line in a spreadsheet and make decisions based on nothing but numbers.
+
+Ok, so all this explains why EA sucks but not **what's wrong with CoD's formula**, so here goes.
+
+CoD has taken the frantic Multiplayer gameplay and somehow embedded it into single player. Now, as I said in the beginning, I don't like multiplayer, I don't play multiplayer, but that is not to say I haven't played multiplayer. I have, time and time again, trying to like it, thinking there must be something wrong with me for not liking it, trying it in different games, etc before arriving at the same conclusion: it's simply not for me. It's too frantic, there are no clear objectives other than **shoot anything that moves, run around, die, respawn, shoot anything that moves, run around, stand by the flag, shoot anything that moves, die, rinse, repeat**. It's simply not enjoyable to me. If you're under 35 this might be very hard to understand, but I like games that let you breathe, that offer different approaches to a situation, that give you the opportunity to think before you act if you so desire. Games like [Dishonored](http://www.dishonored.com/) where you can certainly go in guns blazing like in CoD or take your time, think about it, avoid confrontation if the mood strikes you or kill stealthily. Which is not to say I enjoy stealth games, I hate them. Games like Metal Gear or Splinter Cell (the earlier ones) where it's all stealth and the game practically ends if you get spotted are too frustrating for me. I like a game that let's you play your way. CoD doesn't. The single player experience is just like the multiplayer but interspersed with cringe-worthy, over the top, puerile cinematics which can be blissfully skipped. It is literally non-stop action, **shoot everything that moves, watch cinematic, shoot everything that moves, watch cinematic, rinse, repeat**. Variety in a CoD game comes down to different terrain to shoot everything that moves in. Enemies will almost never stop coming at you in huge waves, there is no pause, no cadence to the action, it's all a high octane, explosive-induced high wire act all the time, you never come down. This makes for complete insensitivity for what's happening around you because that state of constant adrenaline becomes the norm, you are never free to appreciate it since you're either on or off, there is no middle ground, you are either shooting at anything that moves and keeps rewspaning or you're watching a cinematic, that's it.
+
+To me the latest CoD games have lost their soul. Puerile cinematics and a cliched story cannot make up for lack of gameplay variety. On-rails sections where you're following a team member while trying to sneak past guards and there is no other alternative is not gameplay variety either. Sections where control is taken away from you and all you do is press a button should be summarily executed ([Far Cry 3](https://en.wikipedia.org/wiki/Far_Cry_3), a capable FPS, had a number of these).
+
+I don't think it's necessarily the developers' fault but their parent companies, the non-players who don't' really understand what's going on, don't' understand games, they just see a successful formula and think the only way to strike gold is to copy it.
+
+There is, however, a silver lining to all this: Indie games. Since the big franchises are too busy copying each other to truly innovate, the flood gates are wide open for independent developers to fill the need.
+
+Take the recent [Guacamelee](http://guacamelee.com/) for instance, it is one of the best games I've ever played. It's not an FPS, it's a side-scrolling brawler. What makes it so good is the humour, the art, the design and the attention to detail and the innovation, if not in gameplay, at least in subject matter and presentation. This is a labour of love and you can tell, a game created by players for players, as it should be; not by accountants for corporate suits.
+
+Creating and selling games is still a business and you can't feed your family on fan-boy adulation alone, I understand that, but that doesn't mean you have to simply copy last year's successful formula and hope for the money to start coming in. As evidenced by games like Guacamelee, Castle Crashers, etc. there is a call for good, innovative games made with passion and love for the genre that turn enormous profits. The trick is understanding and respecting the medium, not regurgitating last year's winning product with a new lick of paint.
