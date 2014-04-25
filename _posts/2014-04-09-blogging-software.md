@@ -92,6 +92,8 @@ But wait, what about [Jekyllbootstrap](http://jekyllbootstrap.com) or [Ruhoh](ht
 
 They're both valid options but I even though Jekyllbootstrap adds a number of options to get you up and running, it's more complex than Lanyon and I found it poorly documented, plus the guy who wrote it is no longer maintaining it, he moved over to Ruhoh which is even more complex and also doesn't have great documentation. I'm not saying don't use them, or that they're too hard to figure out but I'm saying that with the amount of time I had to dedicate to this project, Lanyon hit just the right balance, not as bare-bones as Jekyll yet not as complex as to the others, the sweet spot.
 
+If you use Rails and want to incorporate Jekyll, [here's a good article](http://www.homemarks.com/blog/2014-04-19-jekyll-style-blogging-on-rails) on how to do that.
+
 ---
 
 Thanks to [Joshua Lande](http://joshualande.com/jekyll-github-pages-poole/) for pointing me to this variation of the [Jekyll](http://jekyllrb.com) blog software.
