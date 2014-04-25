@@ -55,11 +55,11 @@ Also, there aren't a ton of customization options, so if that's your thing, look
 [Jekyll](https://www.heroku.com/about) creates static pages, no database, no users, no PHP, no Chemical Brothers, just your blog pages, and it's based around Markdown, you can write all your pages in Markdown and nothing else, great. It's actually a Ruby gem but you don't have to know Ruby or do any programming to get it going, you just install it with:
 
 {% highlight ruby %}
-	gem install jekyll
-	jekyll new my-awesome-site
-	cd my-awesome-site
-	jekyll serve --watch
-	# => Now browse to http://localhost:4000
+    gem install jekyll
+    jekyll new my-awesome-site
+    cd my-awesome-site
+    jekyll serve --watch
+    # => Now browse to http://localhost:4000
 {% endhighlight %}
 
 And you have an instant blog. All you need to do is edit the pages inside `_posts` and Jekyll will refresh everything automatically (provided you used the `--watch` flag when you started the server). The best part, to publish your site, the easiest thing to do is copy everything inside the `_site` folder over to your server and that's it, no configuration of any kind, no database, no weird languages, etc. your pages are live. Name your posts with the date and name and Jekyll will pick it up automatically from the name, for example:
@@ -73,7 +73,7 @@ However, Jekyll is pretty bare-bones, you'll want to grab the [Lanyon](https://g
 Make sure you installed Jekyll with `gem install jekyll`, download Lanyon to your machine, open a terminal, `cd` over to that folder and type:
 
 {% highlight ruby %}
-	jekyll serve --watch
+    jekyll serve --watch
 {% endhighlight %}
 
 Boom, brand new, awesome blog!
