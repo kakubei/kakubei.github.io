@@ -1,7 +1,3 @@
-Noir (temp title) is a novel I'm working on right now.
+This is just a blog where I put stuff I can think of. 
 
-Read it here as it is created, in chapter installments.
-
-Leave me some feedback, hopefully constructive.
-
-Enjoy.
+A lot of it will be Ruby and programming stuff, a lot of it just random bitching.
