@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Storing hashes in a file
+title: 'Storing hashes in a file'
 ---
 
 If you ever need to store data in a file and then retrieve it, consider using PStore, a standard Ruby library specifically for this purpose. I found the documentation not terribly clear, but basically here's how it works:
