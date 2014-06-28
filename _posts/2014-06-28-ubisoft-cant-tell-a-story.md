@@ -6,7 +6,7 @@ title: "Ubisoft Can't Tell a Story"
 It’s not that they’re not as good as Bioware or don’t have Naughty Dog’s flair for dialogue, it’s simply that they suck. They can’t tell a story to save their lives, it’s like all their writers are 13 year-old kids who’ve never read a book or seen a classic movie. Don’t believe me? Allow me to illustrate.
 
 ## Watchdogs
-Ok, the story here is **so** stupid and inconsequential that you’re better off skipping the cut scenes (those that will allow you the privilege of doing so) and reading [this] instead. Not only is it more entertaining but it’s funny and extremely accurate. It’s certainly a lot more fun than watching the idiotic story take place in the game. Just cause I’m nice, I’ll summarize it for ya:
+Ok, the story here is **so** stupid and inconsequential that you’re better off skipping the cut scenes (those that will allow you the privilege of doing so) and reading [this](http://playthroughline.com/scripts/watch_dogs/) instead. Not only is it more entertaining but it’s funny and extremely accurate. It’s certainly a lot more fun than watching the idiotic story take place in the game. Just cause I’m nice, I’ll summarize it for ya:
 
 Your niece is killed and this turns you into a sociopathic killer by the moniker of *The Vigilante*. There, that’s the whole story, that’s all you need to know. In fact, you don’t even need to know that, it’s so nonsensical it doesn’t matter, just go kill people and try to have fun if you can.
 
