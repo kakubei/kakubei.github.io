@@ -86,7 +86,7 @@ We're going to create those keys on your computer. Let's go back to our friend t
     ssh-keygen
 
 It will prompt you for the location to save the keys, just hit `enter` to choose the default of `~/.ssh` which is fine.
-Next it will ask you to enter a passphrase, thsi is optional, it's basically so no one else can look at your keys or do anything with them without this passphrase, to make things easier we won't add a passphrase here, once again, hit `enter` when prompted for the passphrase.
+Next it will ask you to enter a passphrase, this is optional, it's basically so no one else can look at your keys or do anything with them without this passphrase, to make things easier we won't add a passphrase here, once again, hit `enter` when prompted for the passphrase.
 
 This will create your private and public keys `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` respectively.
 
@@ -151,7 +151,6 @@ The last command will create an empty git repository so that when we push git wo
 Back on your computer we need to tell git where to push the changes, the easiest ting to do is to go to the Terminal and `cd` over to where your blog is and type this:
 
     git remote add origin user-name@mysite.com:remote_blog_directory
-    IdentityFile =
 
 `remote_blog_directory` is the name of the folder you created in Step 1 above. And of course, change `user-name` and `mysite.com` for your user and site name.
 
@@ -206,7 +205,7 @@ Go to your old fiend the terminal, still in the folder for your blog (on your co
 
 If all the planets are aligned, you should see a message saying everythig was successful.
 
-Now visit your site on a browser and bask in the fuits of your hard labour. I know I'm mixing my metaphors but this occasion merits it, we've done **a lot** of hard work and now it's time to enjoy it. Get yourself 2 beers this time, minimum.
+Now visit your site on a browser and bask in the fruits of your hard labour. I know I'm mixing my metaphors but this occasion merits it, we've done **a lot** of hard work and now it's time to enjoy it. Get yourself 2 beers this time, minimum.
 
 The good news is that from now on, the only thing you need to do is:
 
