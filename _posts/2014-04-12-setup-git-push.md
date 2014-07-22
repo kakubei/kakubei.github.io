@@ -73,9 +73,9 @@ If you want to publish your blog to github pages for free, follow their excellen
 If you already have a website and would like to publish your blog there for whatever reason, continue reading.
 
 ## SSH
-[ssh](http://en.wikipedia.org/wiki/Secure_Shell), or secure shell is, as its name implies a secure shell. It's a secure way for computers to communicate, over a network (usually the Internet) without having to use passwords and without people being able to sniff over what they're saying to each other. Actually, that's technically incorrect, but I don't want to explain what a shell is, etc. so just go with it for now.
+[ssh](http://en.wikipedia.org/wiki/Secure_Shell), or secure shell is, as its name implies, a secure shell. It's a secure way for computers to communicate over a network (usually the Internet) without having to use passwords and without people being able to sniff what they're saying to each other. Actually, that's technically incorrect, but I don't want to explain what a shell is, etc. so just go with it for now.
 
-We'll use `ssh` to publish our blog to our remote server on the internet. In order to do this, we need to create secure keys so that the computers can trust each other. `ssh` can be daunting but just follow along and it doesn't have to be.
+We'll use `ssh` to publish our blog to our remote server on the internet. In order to do this, we need to create secure keys so that the computers can trust each other. `ssh` can be daunting but just follow along and it doesn't have to be. Also, don't be afraid of **the Terminal**, it is actually your friend.
 
 \* Another Disclaimer: the first s in `ssh` stands for secure, so security is very important when you're dealing with `ssh` otherwise it sort of defeats the purpose. Below, I'm recommending you don't use a passphrase just because it's easier to setup and use, but please do [read more about ssh](http://jimmyg.org/blog/2008/beginners-guide-to-ssh-keys-with-ssh2.html) and be conscious of security issues. And no, you can't sue me if your computer gets hacked.
 
@@ -90,7 +90,7 @@ Next it will ask you to enter a passphrase, this is optional, it's basically so 
 
 This will create your private and public keys `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` respectively.
 
-The magic happens when we add our public key, `~/.ssh/id_rsa.pub` to the remote server. Your private key, don't copy it anywhere, leave it alone where it is, don't touch it, don't even look at it. OK you can look at it, all I'm saying is don't copy it over to anywhere.
+The magic happens when we add our public key, `~/.ssh/id_rsa.pub` to the remote server. Your private key, don't copy it anywhere, leave it alone where it is, don't touch it, don't even look at it. OK you can look at it, all I'm saying is don't copy it over to anywhere, leave it unmolested.
 
 ## Multiple SSH keys for multiple users
 What if I have multple users for different web sites? You might have one user for your computer and another user for your personal site, yet another user for your work site, one more for your Heroku project, this is not unusual, I have a bunch of websites and I use a different user for each because I'm not a **total** idiot. Having one user and password for everything might be a lot easier but it's just asking for trouble.
