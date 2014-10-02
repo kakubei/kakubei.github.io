@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Disappointement of Rubymotion
+title: The Disappointment of Rubymotion
 ---
 
 I bought [Rubymotion](http://rubymotion.com) last year in a frenzy of excitement over writing iOS apps. It cost me $200 which is a lot for an independent developer these days, especially when you consider that `Xcode` is free and they’ve just released `Swift`, a much more approachable language than the daunting and hated `Objective-C`. Hell I even bought the [Rubymotion book by Clay Allsop](https://pragprog.com/book/carubym/rubymotion) in my excitement.
