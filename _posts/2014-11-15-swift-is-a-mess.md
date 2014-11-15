@@ -19,8 +19,8 @@ Ok, so it was a beta and I shouldn’t bitch because beta is beta and everyone k
 Sounds easy enough and it also sounds like a laudable goal, anything to make our lives easier and produce less bugs should be celebrated. The problem is both with the implementation of this feature and Apple’s shitty explanation of it. If you come from other languages, this is a completely alien concept that no one has been able to explain properly. Not only that, but you’re supposed to append an exclamation or question mark to your variables depending on whether they’re optional or not. So your code will look like this:
 
 {% highlight objective-c %}
-  @IBOutlet weak var taskField: UITextField!
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+@IBOutlet weak var taskField: UITextField!
+func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 {% endhighlight %}
 
 Pretty horrible. And it’s not a matter of aesthetics, it’s a matter of usability, if you’re coding along and forget to use this dumb nomenclature all hell will break loose. Sometimes the compiler won’t even warn you and you’ll start getting all sorts of weird errors on runtime. Not good.
@@ -38,8 +38,8 @@ Yup, Swift is rife with missing methods. And I’m not talking about obscure met
 What? I thought I was supposed to be learning Swift, the whole point of having waited all this time was because I hate Objective-C and don’t want to learn its convoluted syntax.  Well, though titty, you’ll have to learn some Objective-C after all (*damn*) more on that below. So you have to do ugly stuff like this:
 
 {% highlight objective-c %}
-  var gregorianCalendar = NSCalendar(identifier: NSGregorianCalendar)
-  var date = gregorianCalendar.dateFromComponents(components)
+var gregorianCalendar = NSCalendar(identifier: NSGregorianCalendar)
+var date = gregorianCalendar.dateFromComponents(components)
 {% endhighlight %}
 
 ### You’ll need to learn *some* Objective-C (*damn*)
@@ -48,8 +48,8 @@ Mainly because the Cocoa frameworks are written in Objective-C, when something i
 Uh… after much hair-pulling, I guess you’ll have to look at the docs somewhere and try to figure it out. Doesn’t sound too complicated but it can get quite heinous very quickly. For example, Swift already has a `string` type but it doesn’t have all the methods you might require in a string, namely, it doesn’t have the `stringByReplacingCharactersInRange` but `NSString` does so you declare your string as an `NSString` type instead of `String`:
 
 {% highlight objective-c %}
-  let oldText: NSString = textField.text
-  let newText: NSString = oldText.stringByReplacingCharactersInRange(range, withString: string)
+let oldText: NSString = textField.text
+let newText: NSString = oldText.stringByReplacingCharactersInRange(range, withString: string)
 {% endhighlight %}
 
 or the ubiquitous `NSObject` which, again, inherits a lot of nice stuff that the regular Swift object (for some unknown reason) doesn’t have. Like being `equatable` which simply means you can use the `find` method on it.
