@@ -83,6 +83,13 @@ But we let it infer both parameter type and return type and we use the `$0` tric
 let multipliedNumbers = numbers.map({ $0 * 2 })
 {% endhighlight %}
 
+Perhaps a slightlly more readable version might be this:
+{% highlight swift %}
+let multipliedNumbers = numbers.map { number in number * 2 }
+{% endhighlight %}
+
+In this case, it is much more apparent what the first (and only) parameter is and what is happening to it. It still does the same thing as the line above, but I think this is more readable, and readable code will always triumph over shorter, more cryptic code.
+
 ## UIView Animations
 The animations in `UIView` are also a good example of closure usage.
 
