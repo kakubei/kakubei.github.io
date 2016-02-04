@@ -1,17 +1,19 @@
 ---
 layout: post
-title: Bible passages explained in modern language 
+title: Bible passages explained in modern language
 ---
 
 I'm not bashing Christianity or any other religion, believe in whatever you want, it's your choice, you're free to choose. I for, example, believe that my dog is my god. Think about it, we feed them, groom them, pamper them, take them for a walk, pick up their shit! Something I wouldn't do even for my own kids, cater to their every need, stroke them, brush them, do anything for them, unconditionally. If that's not the description of a god then I don't know what is. I know a lot of fervent Christians that are more devout to their dogs than to their god.
+
+This is just me having a little fun. Try not to be offended.
 
 Here is a very good article about [things that might be “wrong” with Christianity](http://www.patheos.com/blogs/friendlyatheist/2014/08/26/40-problems-with-christianity/)
 
 I've taken the bible passages from this article for convenience sakes, but really it could apply to any part of the bible.
 
-Why hasn't the bible been updated? Because it's the word of God I hear you say, but, surely, if it were translated into a bit more modern speak more people would understand it  isn't that the whole point? 
+Why hasn't the bible been updated? Because it's the word of God I hear you say, but, surely, if it were translated into a bit more modern speak more people would understand it, isn't that the whole point?
 
-Anyway, here are a couple if bible passages translated to modern speak.
+Anyway, here are a couple of bible passages translated to modern speak.
 
 > The Son of Man will send out his angels, and they will weed out of his kingdom everything that causes sin and all who do evil. They will throw them into the blazing furnace, where there will be weeping and gnashing of teeth.
 
@@ -23,13 +25,13 @@ Translation: basically, you're all fucked. Just thinking about a woman means you
 
 > Now go, attack the Amalekites and totally destroy all that belongs to them. Do not spare them; put to death men and women, children and infants, cattle and sheep, camels and donkeys.
 
-Translation: these mother fuckers pissed me off good. Wipe them off the face of the earth, that's right, I'm telling you to commit sanctioned genocide. oh, and make sure you kill the women, children and even their fucking pets! Did I mention they pissed me off?
+Translation: these mother fuckers pissed me off good. Wipe them off the face of the earth, that's right, I'm telling you to commit sanctioned genocide. Oh, and make sure you kill the women, children and even their fucking pets! Did I mention they pissed me off?
 
 > “Truly I tell you, some who are standing here will not taste death before they see the Son of Man coming in his kingdom.”
 
 Translation: I'll be right back. (Voy a lleva a la jeba y vengo).
 
-> For the Lord Himself will descend from heaven with a shout, with the voice of the archangel, and with the trumpet of God; and the dead in Christ shall rise first. Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air, and thus we shall always be with the Lord. 
+> For the Lord Himself will descend from heaven with a shout, with the voice of the archangel, and with the trumpet of God; and the dead in Christ shall rise first. Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air, and thus we shall always be with the Lord.
 
 Translation: God is coming down to play a gig; it's going to be filled with fucking zombies! People will fly.
 
