@@ -90,6 +90,8 @@ let multipliedNumbers = numbers.map { number in number * 2 }
 
 In this case, it is much more apparent what the first (and only) parameter is and what is happening to it. It still does the same thing as the line above, but I think this is more readable, and readable code will always triumph over shorter, more cryptic code.
 
+Oh, and notice that we can also omit the parentheses after the `.map` method and just include the closure after it inside curly braces. This is known as `trailing closures` and is the way Ruby uses them. Looks much nicer.
+
 ## UIView Animations
 The animations in `UIView` are also a good example of closure usage.
 
