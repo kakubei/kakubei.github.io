@@ -38,7 +38,9 @@ At the ripe old age of 23 I got a mountain bike. The mighty Yokota Terminator! S
 
  and back, through 4 days lost in the jungle. It climbed like a gecko and descended like a flying squirrel. No `rapid-fire` gears or any other niceties, just the tough levers you had to wrestle with to get the gear you wanted. There was nothing this bike couldn't do. I also took it up a couple of rivers.
 
-Then things got complicated. These days, if you want to buy a mountain bike, you have to know what *type* to get. Do you want a `Hardtail` (what the fuck is that?), or a full suspension bike? What type of riding do you do? Do you like `Enduro`? Or maybe you're more into `Trail`. How about an `XC` or `Cross Country` bike? Perhaps a `Downhill` or `Freeride` bike?
+Then things got complicated. These days, you need a bike for going up, a bike for coming down, a different one for the flats and another one to go to the market.
+
+If you want to buy a mountain bike, you have to know what *type* to get. Do you want a `Hardtail` (what the fuck is that?), or a full suspension bike? What type of riding do you do? Do you like `Enduro`? Or maybe you're more into `Trail`. How about an `XC` or `Cross Country` bike? Perhaps a `Downhill` or `Freeride` bike?
 
 > Damn, dude. I just want a fucking mountain bike. Is that so hard?
 
