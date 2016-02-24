@@ -23,7 +23,7 @@ paginate:         1
 #  Archive: '/archive'
 
 # Custom vars
-version:          0.5
+version:          0.7
 #
 #github:
 #  repo:           https://github.com/poole/poole
