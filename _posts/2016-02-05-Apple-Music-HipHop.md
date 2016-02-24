@@ -15,7 +15,7 @@ But, shit, I've got 20+ years of music on iTunes so it seems like this Apple Mus
 
 What no one tells you is that:
 
-1. If you enable Music Match, iTune will completely fuck up your entire library. Going as far as changing song and artists names!
+1. If you enable Music Match, iTunes will completely fuck up your entire library. Going as far as changing song and artists names!
 2. Apple Radio is really a Hip Hop channel.
 
 I wish someone had told me that before. OK, OK, I know it's called Beats 1 Radio and Beats was owned by Dr. Dre, a rapper, before Apple bought it. But Apple promised **diverse** music. And I, stupidly, believed them.
