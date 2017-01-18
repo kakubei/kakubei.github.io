@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:         pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -16,6 +16,8 @@ author:
   url:            https://twitter.com/kakubei
 
 paginate:         1
+
+gems: [jekyll-paginate]
 
 # Use this if you want to build a top menu of certain pages
 #pages_list:
