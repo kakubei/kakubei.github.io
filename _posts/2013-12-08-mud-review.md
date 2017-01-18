@@ -19,4 +19,4 @@ Long live Hollywood.
 
 PS
 
-I was toying with the idea of creating a chart of how long it take Mr. McConaughey to remove his shirt in his movies but I'm sure [someone on the internet](http://movieline.com/galleries/a-comprehensive-history-of-shirtless-matthew-mcconaughey/) has already done that.
+I was toying with the idea of creating a chart of how long it takes Mr. McConaughey to remove his shirt in his movies but I'm sure [someone on the internet](http://movieline.com/galleries/a-comprehensive-history-of-shirtless-matthew-mcconaughey/) has already done that.
