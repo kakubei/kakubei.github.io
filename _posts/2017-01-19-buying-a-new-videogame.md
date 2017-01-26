@@ -3,7 +3,7 @@ layout: post
 title:  The sure-fire way to buy a new video game
 ---
 
-When your wife yells at you
+When your wife yells at you:
 
 “Another video game? You bought another video game? We need a new sofa and you bought another fucking video game???”
 

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Swift is a Bit of a Mess &middot; Kakuweb Blog
+    
+  </title>
+
+
+    <!-- This is a header with the pages_list array declared in config.yml -->
+<!--
+    <h3 class="masthead-title">
+    <a href="/" title="Home">Kakuweb Blog</a>
+
+    
+    </h3>
+-->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08 layout-reverse">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Hodgepodge bunch of stuff, mostly related to programming but really anything I feel like ranting about.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/">Posts</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/novel/">My Novel</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+
+  <!-- listing the latest 10 entries -->
+    <section>
+        <span class="sidebar-nav-item">Recent Posts</span>
+        <ul>
+        
+          <li>
+            <a href="/2017/01/19/buying-a-new-videogame/">The sure-fire way to buy a new video game</a>
+          </li>
+        
+          <li>
+            <a href="/2017/01/15/back-to-work/">Back to work</a>
+          </li>
+        
+          <li>
+            <a href="/2017/01/14/move-to-london/">So you want to move to London</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/24/Tap-Gesture-and-TableView/">Using a Tap Gesture That Doesn't Interfere with a TableView in iOS</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/24/Close-iOS-Keyboard/">Best Way to Close the iOS Keyboard</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/05/Apple-Music-HipHop/">Apple Radio = The HipHop Channel</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/04/Bicycle-Wheel-Sizes/">Bicycle Wheel Sizes</a>
+          </li>
+        
+          <li>
+            <a href="/2015/08/19/Swift-is-cool/">Swift is Actually Cool!</a>
+          </li>
+        
+          <li>
+            <a href="/2015/08/19/Apple-Watch-is-a-gimmick/">The Apple Watch is a Gimmick</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/05/Irony-of-To-Do-Apps/">The Irony of To Do Apps</a>
+          </li>
+        
+        </ul>
+    </section>
+
+    <span class="sidebar-nav-item">Currently v0.7</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2017. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Kakuweb Blog</a>
+            <small>Rants and raves. Some interesting stuff, most of it not.</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Swift is a Bit of a Mess</h1>
+  <span class="post-date">15 Nov 2014</span>
+  <p>Apple’s new language is undoubtedly much more palatable and approachable than the dreaded Objective-C, no question about that whatsoever. Even if you’re a staunch, die-hard, crusty old Objective-C developer you have to admit that Swift is more elegant, less verbose (hell, even a 6-year-old girl is less verbose), easier to remember and, more important: easier to learn than Objective-C. It is Apple’s latest attempt at bringing a <em>modern</em> language to its <em>modern</em> Operating System.</p>
+
+<p>But it’s no panacea. Granted, this is version 1 but we’re talking about a language that will be used to create the next and great applications for the most popular smart phones and tablets in the world, people! We’re not talking about a language developed by some nerd in his basement because he didn’t like Ruby’s syntax for Regex (I’m looking at you Haskell). This is a language developed (technically adopted) by the most successful computer company in the world! As such, you would expect nothing less than perfection, or at least <strong>full functionality</strong> if perfection is too much to ask. But it seems that even that: functionality is too much to ask of Apple these days. Apparently, gone are the days when processes went through rigorous in-house testing before release, now Apple is content to let their customers do their beta testing for them. Alright, this is true of all the major software companies as well, Microsoft and Adobe do the same thing as does the Behemoth that is Autodesk. But this is Apple, the company that encouraged us to <em>Think Different</em>, and for the longest time they actually practiced what they preached.</p>
+
+<p>Alas, those days are over. Not only in hardware when you see the abomination that is the iPhone 6 Plus but also in software when they see fit to release version 1 of a programming language that is definitely not ready for prime time.</p>
+
+<h2 id="the-evidence">The Evidence</h2>
+<p>Let’s talk facts instead of talking out of our arses.</p>
+
+<h3 id="between-the-last-beta-and-the-10-release-a-matter-of-mere-weeks-swift-changed-substantially-it-changed-enough-to-break-a-hell-of-a-lot-of-code">Between the last beta and the 1.0 release (a matter of mere weeks) Swift changed substantially. It changed enough to break a hell of <strong>a lot of code</strong>.</h3>
+
+<p>Ok, so it was a beta and I shouldn’t bitch because beta is beta and everyone knows it’s not written in stone, but one of the changes was a huge one, it had to do with <em>unwrapped variables</em>, a silly new way to prevent <code class="highlighter-rouge">nil</code> bugs. Basically, instead of checking for <code class="highlighter-rouge">nil</code> all the time, you have tell Xcode if your variable will ever return no value.</p>
+
+<p>Sounds easy enough and it also sounds like a laudable goal, anything to make our lives easier and produce less bugs should be celebrated. The problem is both with the implementation of this feature and Apple’s shitty explanation of it. If you come from other languages, this is a completely alien concept that no one has been able to explain properly. Not only that, but you’re supposed to append an exclamation or question mark to your variables depending on whether they’re optional or not. So your code will look like this:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">@IBOutlet weak var taskField: UITextField!
+func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {</code></pre></figure>
+
+<p>Pretty horrible. And it’s not a matter of aesthetics, it’s a matter of usability, if you’re coding along and forget to use this dumb nomenclature all hell will break loose. Sometimes the compiler won’t even warn you and you’ll start getting all sorts of weird errors on runtime. Not good.</p>
+
+<p>The worst part about this is that Apple made this idiotic move simply because they didn’t have time to audit all their crusty Objective-C methods to make sure they wouldn’t explode when nil was returned. You can look it up! In other words, they did this because they released the language too early (as a 1.0 release mind you, not the beta) and couldn’t guarantee it would work properly so they hurriedly added this shitty check. That just sucks. The only good sliver of hope in all of this is that maybe they’ll do away with this crap once they do get their arses in gear and audit all their crusty code.</p>
+
+<p>The fact that Apple made these changes just weeks before the release of 1.0 does not bode well at all, what else did they forget to include in the first release?</p>
+
+<p>I’ll tell you what else:</p>
+
+<h3 id="missing-methods">Missing methods</h3>
+
+<p>Yup, Swift is rife with missing methods. And I’m not talking about obscure methods like <code class="highlighter-rouge">tellMeWhatIsMyFavouriteSouthParkEpisode</code> (yes, methods in Swift are still verbose, <em>sigh</em>), I’m talking about basic methods like date conversions. Date conversions! Date conversion functions are basic stuff, you use them all the time. But Apple didn’t have time, or couldn’t be bothered, to include them into Swift. So what do you do? You use NextStep methods.</p>
+
+<p>What? I thought I was supposed to be learning Swift, the whole point of having waited all this time was because I hate Objective-C and don’t want to learn its convoluted syntax.  Well, though titty, you’ll have to learn some Objective-C after all (<em>damn</em>) more on that below. So you have to do ugly stuff like this:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">var gregorianCalendar = NSCalendar(identifier: NSGregorianCalendar)
+var date = gregorianCalendar.dateFromComponents(components)</code></pre></figure>
+
+<h3 id="youll-need-to-learn-some-objective-c-damn">You’ll need to learn <em>some</em> Objective-C (<em>damn</em>)</h3>
+<p>Mainly because the Cocoa frameworks are written in Objective-C, when something isn’t available as a Swift object, you’ll need to reach for its Objective-C equivalent. But how will you know when a particular method is not available? And how will you know what it’s equivalent is and how to use it?</p>
+
+<p>Uh… after much hair-pulling, I guess you’ll have to look at the docs somewhere and try to figure it out. Doesn’t sound too complicated but it can get quite heinous very quickly. For example, Swift already has a <code class="highlighter-rouge">string</code> type but it doesn’t have all the methods you might require in a string, namely, it doesn’t have the <code class="highlighter-rouge">stringByReplacingCharactersInRange</code> but <code class="highlighter-rouge">NSString</code> does so you declare your string as an <code class="highlighter-rouge">NSString</code> type instead of <code class="highlighter-rouge">String</code>:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">let oldText: NSString = textField.text
+let newText: NSString = oldText.stringByReplacingCharactersInRange(range, withString: string)</code></pre></figure>
+
+<p>or the ubiquitous <code class="highlighter-rouge">NSObject</code> which, again, inherits a lot of nice stuff that the regular Swift object (for some unknown reason) doesn’t have. Like being <code class="highlighter-rouge">equatable</code> which simply means you can use the <code class="highlighter-rouge">find</code> method on it.</p>
+
+<p>Oh, the joys of Apple products which now force us to learn not one but two programming languages. Seriously, who OKed this? I know that during Steve’s Reign this would have never been allowed, ever. For that matter nor would the iPhone 6 plus, but Steve is dead, long live Steve, so those days are over.</p>
+
+<h2 id="missed-opportunity">Missed Opportunity</h2>
+<p>One of the uglier things in Objective-C are the method names. It’s good that they’re descriptive so you have no doubt what they do but they are overly so, it’s as if the engineer who came up with them was taking a course in positive thinking coupled with Medieval English and patterned them after the lexicon of a shy waiter in a late 1800s Victorian novel.</p>
+
+<blockquote>
+  <p>Excuse me sir, did you by any chance, Finish Lunching on this delicious salad plate that the Chef Lovingly Prepared for you?</p>
+</blockquote>
+
+<p>What the hell? I don’t want Jeeves, the mildly autistic waiter, as my methods manager, I want Jimbo the monosyllabic, assertive redneck:</p>
+
+<blockquote>
+  <p>added Item</p>
+</blockquote>
+
+<blockquote>
+  <p>I’m sorry Jimbo, did You Finish Adding the Item?</p>
+</blockquote>
+
+<blockquote>
+  <p>Wadda I just say?</p>
+</blockquote>
+
+<blockquote>
+  <p>Oh, yes I see, right, you were quite unequivocal about it, ha, ha, thanks. I’m just not used to such short sentences.</p>
+</blockquote>
+
+<blockquote>
+  <p>Grunt</p>
+</blockquote>
+
+<p>(Southern twang optional)</p>
+
+<p>For example:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  didFinishAddingItem</code></pre></figure>
+
+<p>Why not simply:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  addedItem</code></pre></figure>
+
+<p>or</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  didReceiveMemoryWarning</code></pre></figure>
+
+<p>How about:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  memoryWarning</code></pre></figure>
+
+<p>I mean, what’s with all the <em>dids</em>? It sounds more like a question than an assertion,</p>
+
+<blockquote>
+  <p>did you add the item?</p>
+</blockquote>
+
+<blockquote>
+  <p>yes I didFinishAddingTheItem</p>
+</blockquote>
+
+<p>Sheesh!</p>
+
+<p>also</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  dequeueReusableCellWithIdentifier</code></pre></figure>
+
+<p>what’s wrong with:</p>
+
+<figure class="highlight"><pre><code class="language-objective-c" data-lang="objective-c">  reuseCell</code></pre></figure>
+
+<p>It seems to me a real shame that Apple didn’t take this opportunity to rename these methods and shorten them to something more sensible. Yes, yes, I know that would throw the Objective-C crazies for a loop but these rabid dogs will never learn Swift, why should they when they can be completely competent in their horrible language? Seriously, there is no incentive for a seasoned Objective-C bastard to move to Swift, especially if all of the frameworks are still written in Objective-C, what advantage would it net them? None that I can think of.</p>
+
+<p>So I maintain they should have shortened them, don’t remove the old ones, just make aliases. More changes that might lead to more bugginess? Not necessarily, and I think all new developers would thank them in the long run.</p>
+
+<h2 id="xcode-is-not-ready-for-swift">Xcode is not ready for Swift</h2>
+<p>Try refactoring something in Swift, say simply changing a function’s name. Ha, ha, it won’t work! Xcode will even be nice enough to tell you that you can refactor in C and Objective-C but not Swift!</p>
+
+<p>Refactoring is just a fancy name for rewriting code, but it is an extremely useful tool to make sure you don’t leave any traces behind, doing it manually (which were are forced to do for now) is so much more prone to bugs and errors.</p>
+
+<h2 id="xcode-is-not-ready-for-anything-its-buggy">Xcode is not ready for anything (it’s buggy)</h2>
+<p>Xcode has always been buggy, it’s part of its charm it seems since Apple has never been able to ship a non-buggy version. Everything has bugs, I’m not talking about weird, obscure bugs, I’m talking about basic bugs like the compiler complaining about non-existent methods when it loses track of things! This is one of the compiler’s main functions yet it doesn’t work properly. The solution to most Xcode bugs (as any Xcode veteran will tell you)? Restart the damn thing.</p>
+
+<p>It’s sad, irritating and frustrating but also a bit of a blessing that after hours of cursing and pulling your hair and trying to find where the filthy bug is coming from, they all disappear when you restart Xcode, like roaches reacting to light, an appropriate metaphor, I think.</p>
+
+<h3 id="templates-contain-all-sorts-of-errors">Templates contain all sorts of errors</h3>
+<p>A template in Xcode is, for example, when you create a new file, then choose a subclass of an existing Framework, say <code class="highlighter-rouge">UItableViewController</code>. You’ll get some boilerplate code with the functions you need to get the Controller working properly. Well, guess what, it’s filled with errors! Mainly errors with those pesky optional variables, yes <strong>those</strong>. So even Apple doesn’t know how to use them properly. Either that or they were too lazy/dumb to clean up their own templates before shipping out Xcode 6 and haven’t bothered to do anything about it, like patch it, in the time since it came out (first stable release: September 17, 2014). So you can’t even trust the code that Xcode writes for you? Now we’re in some serious shit because you’ll spend your life wondering what’s wrong with your code when it’s Xcode making the mistakes! Holy Fuck, Xcode will write bad code for you on purpose! They should list that as a feature in the iTunes page, no other IDE in the world does that (that I’ve ever used).</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>I’ll still use Swift and love it compared to the offensiveness of Objective-C.</p>
+
+<p>Despite all my bitching (hey, bitching is fun) I’m still grateful that Apple came up with Swift. I hate Objective-C with a passion. It’s ugly, inelegant, long-winded, with retarded method names and incomprehensible syntax. Honestly, it’s the worst language I’ve ever seen. Of course I come from the PHP, Ruby, Python, Javascript camp, not from the C and C++ ghettoes where I’m sure Objective-C looks pristine and modern.</p>
+
+<p>Objective-C was a huge stumbling block for me (and I’m sure millions) learning Xcode and iOS and OS X development. Now we have an alternative. It’s not the greatest alternative, it could be a lot better, but it’s much better than Obj-C and it can only get better with time and that is a good thing.</p>
+
+</div>
+
+<img src="/images/twitter_logo_blue.png" alt="Twitter" style="width: 30px; float: left; margin-right: 10px;">
+<a href="https://twitter.com/intent/tweet?url=http://localhost:4000/2014/11/15/swift-is-a-mess/&text=Swift is a Bit of a Mess&via=kakubei"
+   target="_blank">Share this post </a>if you want,
+or
+<a href="https://twitter.com/kakubei">
+  follow me on Twitter</a> if you're into that stuff.
+
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'noirnovel'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2017/01/19/buying-a-new-videogame/">
+            The sure-fire way to buy a new video game
+            <small>19 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2017/01/15/back-to-work/">
+            Back to work
+            <small>15 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2017/01/14/move-to-london/">
+            So you want to move to London
+            <small>14 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50242492-1', 'kakubei.github.io');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </body>
+</html>
